@@ -1,0 +1,33 @@
+menu "Connection Configuration"
+
+config WIFI_SSID
+    string "WiFi SSID"
+	default "myssid"
+	help
+		SSID (network name) for the example to connect to.
+
+config WIFI_PASSWORD
+    string "WiFi Password"
+	default "mypassword"
+	help
+		WiFi password (WPA or WPA2) for the example to use.
+
+		Can be left blank if the network has no security set.
+
+config WEBAPI_SERVER
+    string "Web API server address"
+    default "example.com"
+
+config WEBAPI_PORT
+    string "Web API port"
+    default "443"
+
+config WEBAPI_URL
+    string "Web API URL"
+    default "https://example.com/post.cgi"
+
+config WEBAPI_AUTH
+    string "Web API Basic auth string"
+    default "userid:password"
+
+endmenu
