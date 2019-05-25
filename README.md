@@ -18,7 +18,7 @@ This code is an example of HTTPS communication with ESP32. Send the ESP32 chip t
 
 Running this sample, ESP32 will output the following serially. HTTP Response is different from the following because it depends on the API of connection destination.
 
----
+~~~
 I (309381) HTTPS: Connected to AP
 I (310381) HTTPS: Connection established...
 I (310391) HTTPS: request_body={"esp32":{"temperature":56.666667}}
