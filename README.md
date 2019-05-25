@@ -1,7 +1,14 @@
 Name
 ====
+HTTPS POST basic auth example of ESP32(ESP-IDF)
 
 Overview
+
+- ESP-IDF example
+- Connect HTTPS 
+- Validate certificate 
+- HTTP POST
+- Measure core temperature
 
 ## Description
 
