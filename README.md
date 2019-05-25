@@ -38,6 +38,8 @@ I (310581) HTTPS: connection closed
 
 To build this code, you need an ESP-IDF development environment. See ESPRESSIF web site.[Get Started](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)
 
+The author has been tested with Linux Mint 19.1.
+
 ## Usage
 
 Around available WiFi, turn on your ESP32 board.
@@ -48,6 +50,8 @@ Around available WiFi, turn on your ESP32 board.
 1. Enter "Connection Configuration" menu
 1. Configurate
 1. Select "Save" and "Exit"
+1. Download x509 root certificate with PEM format of api web site (Use a certificate one level higher)
+1. Save certificate to file `./main/server_root_cert.pem` with PEM format (Base64 encoded text)
 1. Type `make -j4 flash` command and write to your ESP32 device
 1. Type `make monitor` command
 
