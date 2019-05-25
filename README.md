@@ -1,13 +1,12 @@
 # HTTPS POST Request Example
-=====================
 
-Overview
+## Overview
 
 - ESP32(ESP-IDF) example
 - Connect HTTPS and POST JSON data
 - Using HTTP Basic Authentication
 - Validate certificate with x509 root certificate
-- Measure core temperature
+- Measure ESP32 chip temperature
 - Blink onboard LED
 - Use WiFi
 
@@ -37,7 +36,7 @@ I (310581) HTTPS: connection closed
 
 ## Requirement
 
-ESP-IDF development environment. See [https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html]
+To build this code, you need an ESP-IDF development environment. See ESPRESSIF web site.[Get Started](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)
 
 ## Usage
 
