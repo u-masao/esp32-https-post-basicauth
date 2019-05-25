@@ -14,6 +14,8 @@
 
 This code is an example of HTTPS communication with ESP32. Send the ESP32 chip temperature to the URL you specify.
 
+This code was created by editing the ESP-IDF sample code. [https_request](https://github.com/espressif/esp-idf/tree/master/examples/protocols/https_request)
+
 ## Demo
 
 Running this sample, ESP32 will output the following serially. HTTP Response is different from the following because it depends on the API of connection destination.
@@ -58,6 +60,8 @@ Around available WiFi, turn on your ESP32 board.
 ## Licence
 
 [APACHE](https://github.com/u-masao/esp32-https-post-basicauth/blob/master/LICENSE)
+
+
 
 ## Author
 
