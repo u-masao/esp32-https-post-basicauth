@@ -32,7 +32,7 @@ Connection: close
 
 {"esp32": {"temperature": 56.666667}}
 I (310581) HTTPS: connection closed
----
+~~~
 
 ## Requirement
 
