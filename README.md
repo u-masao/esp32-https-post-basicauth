@@ -59,7 +59,7 @@ Around available WiFi, turn on your ESP32 board.
 
 ## Licence
 
-[APACHE](https://github.com/u-masao/esp32-https-post-basicauth/blob/master/LICENSE)
+[Apache](https://github.com/u-masao/esp32-https-post-basicauth/blob/master/LICENSE)
 
 
 
