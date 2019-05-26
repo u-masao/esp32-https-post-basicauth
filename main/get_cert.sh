@@ -30,4 +30,4 @@ fi
     awk 'BEGIN{RS="-----"} NR==7{print $0}' | \
     sed  '/^$/d' 
   echo $END_CER 
-) > server_root_cert.pem 
+) 
